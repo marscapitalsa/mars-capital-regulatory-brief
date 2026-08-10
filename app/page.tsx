@@ -1,122 +1,107 @@
 const updates = [
   {
-    date: "18 Jul 2026",
-    tag: "FINMA",
-    title: "FINMA clarifies expectations for outsourcing oversight",
-    summary:
-      "Practical focus points for asset managers: vendor inventories, exit planning, incident escalation and board-level reporting.",
-    level: "Action may be required",
+    date: "03 Aug 2026",
+    title: "EU AI Act: current transparency rules and revised implementation dates",
+    change:
+      "The AI Act's general application date arrived on 2 August, while Regulation (EU) 2026/1744 moved the core high-risk-system requirements to 2 December 2027 or 2 August 2028. Legacy generative-AI providers have until 2 December 2026 for Article 50(2) marking.",
+    relevance:
+      "Relevant only if the IAM has the required EU nexus or covered use case—for example an EU-facing chatbot, covered public content or an Annex III high-risk use. Ordinary internal drafting or research in Switzerland is not automatically high-risk.",
+    deadline: "2 August / 2 December 2026",
+    tag: "AI",
+    href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/eu-ai-act-august-2026.html",
   },
   {
-    date: "09 Jul 2026",
-    tag: "AMLA",
-    title: "Consultation opens on targeted AML reporting changes",
-    summary:
-      "The proposal would refine documentation and reporting expectations for higher-risk client relationships and intermediaries.",
-    level: "Consultation",
+    date: "06 Aug 2026",
+    title: "UK adds six Russian banks, seven other targets and six vessels",
+    change:
+      "The UK Sanctions List added 13 Russia-regime designations and six ship specifications. The banks include Ozon Bank, Roseximbank, Center-Invest, Realist Bank, Bank Stavr and Teleport Bank.",
+    relevance:
+      "Relevant where a client, UBO, payment, holding, bank, custodian or transaction has a UK nexus, or where a service provider contractually applies the UK list. The update does not itself amend Swiss law.",
+    deadline: "UK designation date: 6 August 2026",
+    tag: "Sanctions",
+    href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/uk-russia-sanctions-august-2026.html",
   },
   {
-    date: "30 Jun 2026",
-    tag: "FDF",
-    title: "Sustainable-finance transparency: revised implementation timeline",
-    summary:
-      "Updated milestones affect product disclosures, portfolio claims and internal governance for sustainability-related communication.",
-    level: "Monitor",
-  },
-  {
-    date: "12 Jun 2026",
-    tag: "FIDLEG",
-    title: "Client documentation: recurring suitability-review reminders",
-    summary:
-      "A concise review of the records and cadence investment advisers should be able to evidence during supervision.",
-    level: "Practice note",
+    date: "07 Aug 2026",
+    title: "EU lists five Russian defence-industry executives",
+    change:
+      "The Council imposed an asset freeze and a prohibition on making funds or economic resources available to five senior figures at Russian defence and military-technology companies.",
+    relevance:
+      "Relevant where the IAM, a client, UBO, issuer, payment, bank or custodian has an EU nexus or applies the EU list. No corresponding Swiss adoption was identified as at 10 August.",
+    deadline: "EU listing date: 7 August 2026",
+    tag: "Sanctions",
+    href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/eu-russia-sanctions-7-august-2026.html",
   },
 ];
 
 export default function Home() {
   return (
-    <main>
-      <nav className="nav" aria-label="Primary navigation">
-        <a className="brand" href="#top" aria-label="Alpine Regulatory Brief home">
-          <span className="brand-mark">A</span>
-          <span>Alpine Regulatory Brief</span>
-        </a>
-        <div className="nav-links">
-          <a href="#updates">Updates</a>
-          <a href="#topics">Topics</a>
-          <a href="#about">About</a>
-        </div>
-        <button className="subscribe-button">Subscribe</button>
+    <main className="brief-shell">
+      <header className="edition-head">
+        <p className="eyebrow">IAM Regulatory Brief · Monthly edition</p>
+        <h1>August 2026</h1>
+        <p className="dek">
+          Three selected developments for a Swiss independent asset manager.
+          Updated 10 August 2026.
+        </p>
+      </header>
+
+      <nav aria-label="Brief navigation">
+        <a href="#action-required">Action required</a>
+        <a href="#potentially-relevant">Potentially relevant</a>
+        <a href="#archive">Archive</a>
       </nav>
 
-      <section className="hero" id="top">
-        <div className="hero-copy">
-          <p className="eyebrow">Swiss asset management · legal intelligence</p>
-          <h1>Regulatory change,<br /><em>made useful.</em></h1>
-          <p className="lede">
-            A concise, trusted view of Swiss legal and regulatory developments that matter to asset managers.
+      <section id="action-required" className="priority-block no-actions">
+        <p className="eyebrow">Priority 1</p>
+        <h2>No unconditional action items identified</h2>
+        <p>
+          The August developments currently identified are foreign-law measures.
+          They require action only if the stated EU or UK nexus, use case or
+          counterparty condition applies.
+        </p>
+      </section>
+
+      <section id="potentially-relevant" className="updates-section">
+        <div className="priority-block potential">
+          <p className="eyebrow">Priority 2</p>
+          <h2>Potentially relevant</h2>
+          <p>
+            Open a topic only where its stated condition matches the IAM&apos;s
+            activities, clients, systems, bank or custody chain.
           </p>
-          <div className="hero-actions">
-            <a className="primary-button" href="#updates">Browse latest updates</a>
-            <a className="text-link" href="#about">How it works <span>→</span></a>
-          </div>
         </div>
-        <aside className="brief-card" aria-label="Latest briefing">
-          <div className="card-topline"><span>Latest briefing</span><span>07.2026</span></div>
-          <div className="rule" />
-          <p className="card-kicker">Supervisory focus</p>
-          <h2>Outsourcing controls move to the foreground</h2>
-          <p>What Swiss asset managers should revisit now — in five practical questions.</p>
-          <a href="#updates">Read the briefing <span>↗</span></a>
-        </aside>
-      </section>
 
-      <section className="signal-bar" aria-label="Site focus">
-        <p>Curated for decision-makers</p><span />
-        <p>Swiss law &amp; regulation</p><span />
-        <p>Asset management</p>
-      </section>
-
-      <section className="updates-section" id="updates">
-        <header className="section-heading">
-          <div>
-            <p className="eyebrow">The legal update</p>
-            <h2>What changed.<br />What it means.</h2>
-          </div>
-          <p>Clear summaries, context and a practical signal — without the noise.</p>
-        </header>
         <div className="update-list">
-          {updates.map((update, index) => (
-            <article className="update" key={update.title}>
-              <div className="update-meta"><span>{update.date}</span><span>{update.tag}</span></div>
-              <div className="update-main">
-                <span className={`status status-${index}`}>{update.level}</span>
-                <h3>{update.title}</h3>
-                <p>{update.summary}</p>
+          {updates.map((update) => (
+            <article className="update-card" key={update.href}>
+              <div className="meta">
+                <span className="badge">Potentially relevant</span>
+                <span>{update.date}</span>
               </div>
-              <a className="arrow" href="#about" aria-label={`Read ${update.title}`}>↗</a>
+              <div>
+                <h3>{update.title}</h3>
+                <span className="topic-tag">{update.tag}</span>
+                <p><strong>What changed:</strong> {update.change}</p>
+                <p className="deadline"><strong>{update.deadline}</strong></p>
+                <p><strong>Relevant if:</strong> {update.relevance}</p>
+                <a className="read" href={update.href}>Open analysis →</a>
+              </div>
             </article>
           ))}
         </div>
       </section>
 
-      <section className="topics" id="topics">
-        <p className="eyebrow">Follow the themes that matter</p>
-        <div className="topic-grid">
-          <a href="#updates">Conduct &amp; client protection <span>↗</span></a>
-          <a href="#updates">AML &amp; financial crime <span>↗</span></a>
-          <a href="#updates">Sustainable finance <span>↗</span></a>
-          <a href="#updates">Governance &amp; operations <span>↗</span></a>
-        </div>
+      <section className="archive" id="archive">
+        <h2>Archive</h2>
+        <a href="https://marscapitalsa.github.io/mars-capital-regulatory-brief/july-2026.html">
+          <span>July 2026</span>
+          <strong>AML, product governance, beneficial ownership, sanctions and operational resilience</strong>
+          <em>10 updates</em>
+        </a>
       </section>
 
-      <section className="about" id="about">
-        <p className="eyebrow">A working prototype</p>
-        <h2>Built to turn regulatory movement into informed action.</h2>
-        <p>This first version demonstrates the editorial experience. Source monitoring, personalised alerts and archive search will follow.</p>
-      </section>
-
-      <footer><span>© 2026 Alpine Regulatory Brief</span><span>Switzerland · Independent legal intelligence</span></footer>
+      <footer>© 2026 IAM Regulatory Brief</footer>
     </main>
   );
 }

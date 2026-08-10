@@ -2,17 +2,17 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Alpine Regulatory Brief | Swiss asset management",
-  description: "Swiss legal and regulatory updates for asset managers.",
+  title: "August 2026 | IAM Regulatory Brief",
+  description: "Selected regulatory developments for a Swiss independent asset manager.",
   openGraph: {
-    title: "Alpine Regulatory Brief",
-    description: "Swiss legal and regulatory updates for asset managers.",
+    title: "August 2026 | IAM Regulatory Brief",
+    description: "Selected regulatory developments for a Swiss independent asset manager.",
     images: ["/og.png"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alpine Regulatory Brief",
-    description: "Swiss legal and regulatory updates for asset managers.",
+    title: "August 2026 | IAM Regulatory Brief",
+    description: "Selected regulatory developments for a Swiss independent asset manager.",
     images: ["/og.png"],
   },
   icons: {
