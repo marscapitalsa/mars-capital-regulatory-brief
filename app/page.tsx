@@ -1,3 +1,17 @@
+const actionUpdates = [
+  {
+    date: "11 Aug 2026",
+    title: "Switzerland adds 53 Russia-related sanctions targets",
+    change:
+      "The Swiss Annex 8 update added nine individuals and 44 entities, amended six existing records and took effect on 11 August at 23:00. Five Annex 2 end-user entries were also amended.",
+    action:
+      "Load the current SECO list, re-screen relevant clients, UBOs/controllers, holdings, issuers and transaction parties, resolve potential ownership or control matches, and apply the Swiss freezing, non-availability and SECO-reporting rules where a confirmed match exists.",
+    deadline: "In force since 11 August 2026, 23:00",
+    tag: "Sanctions",
+    href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/switzerland-russia-sanctions-11-august-2026.html",
+  },
+];
+
 const updates = [
   {
     date: "03 Aug 2026",
@@ -27,7 +41,7 @@ const updates = [
     change:
       "The Council imposed an asset freeze and a prohibition on making funds or economic resources available to five senior figures at Russian defence and military-technology companies.",
     relevance:
-      "Relevant where the IAM, a client, UBO, issuer, payment, bank or custodian has an EU nexus or applies the EU list. No corresponding Swiss adoption was identified as at 10 August.",
+      "Relevant where the IAM, a client, UBO, issuer, payment, bank or custodian has an EU nexus or applies the EU list. The separate Swiss amendment effective 11 August must be screened under the current SECO list.",
     deadline: "EU listing date: 7 August 2026",
     tag: "Sanctions",
     href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/eu-russia-sanctions-7-august-2026.html",
@@ -41,8 +55,8 @@ export default function Home() {
         <p className="eyebrow">IAM Regulatory Brief · Monthly edition</p>
         <h1>August 2026</h1>
         <p className="dek">
-          Three selected developments for a Swiss independent asset manager.
-          Updated 10 August 2026.
+          Four selected developments for a Swiss independent asset manager.
+          Updated 12 August 2026.
         </p>
       </header>
 
@@ -52,14 +66,34 @@ export default function Home() {
         <a href="#archive">Archive</a>
       </nav>
 
-      <section id="action-required" className="priority-block no-actions">
-        <p className="eyebrow">Priority 1</p>
-        <h2>No unconditional action items identified</h2>
-        <p>
-          The August developments currently identified are foreign-law measures.
-          They require action only if the stated EU or UK nexus, use case or
-          counterparty condition applies.
-        </p>
+      <section id="action-required" className="updates-section action-section">
+        <div className="priority-block">
+          <p className="eyebrow">Priority 1</p>
+          <h2>Action required</h2>
+          <p>
+            A Swiss sanctions-list amendment is already in force. Complete the
+            control steps below; the remaining foreign-law topics are conditional.
+          </p>
+        </div>
+
+        <div className="update-list">
+          {actionUpdates.map((update) => (
+            <article className="update-card" key={update.href}>
+              <div className="meta">
+                <span className="badge" style={{ background: "var(--accent)", color: "#fff" }}>Action required</span>
+                <span>{update.date}</span>
+              </div>
+              <div>
+                <h3>{update.title}</h3>
+                <span className="topic-tag">{update.tag}</span>
+                <p><strong>What changed:</strong> {update.change}</p>
+                <p className="deadline"><strong>{update.deadline}</strong></p>
+                <p><strong>Action:</strong> {update.action}</p>
+                <a className="read" href={update.href}>Open action plan →</a>
+              </div>
+            </article>
+          ))}
+        </div>
       </section>
 
       <section id="potentially-relevant" className="updates-section">
