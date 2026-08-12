@@ -11,7 +11,6 @@ const actionUpdates = [
     href: "https://marscapitalsa.github.io/mars-capital-regulatory-brief/updates/switzerland-russia-sanctions-11-august-2026.html",
   },
 ];
-
 const updates = [
   {
     date: "03 Aug 2026",
