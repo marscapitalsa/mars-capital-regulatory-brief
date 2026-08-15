@@ -60,6 +60,7 @@ export default function Home() {
       </header>
 
       <nav aria-label="Brief navigation">
+        <a href="#" aria-current="page">August 2026</a>
         <a href="#action-required">Action required</a>
         <a href="#potentially-relevant">Potentially relevant</a>
         <a href="#archive">Archive</a>
@@ -126,15 +127,18 @@ export default function Home() {
       </section>
 
       <section className="archive" id="archive">
-        <h2>Archive</h2>
+        <div>
+          <p className="eyebrow">Previous editions</p>
+          <h2>Archive</h2>
+        </div>
         <a href="https://marscapitalsa.github.io/mars-capital-regulatory-brief/july-2026.html">
           <span>July 2026</span>
           <strong>AML, product governance, beneficial ownership, sanctions and operational resilience</strong>
-          <em>10 updates</em>
+          <em>10 updates · View →</em>
         </a>
       </section>
 
-      <footer>© 2026 IAM Regulatory Brief</footer>
+      <footer>© 2026 IAM Regulatory Brief · Independent Asset Manager</footer>
     </main>
   );
 }
