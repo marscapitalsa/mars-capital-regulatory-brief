@@ -55,7 +55,7 @@ export default function Home() {
         <h1>August 2026</h1>
         <p className="dek">
           Four selected developments for a Swiss independent asset manager.
-          Updated 12 August 2026.
+          Last checked 17 August 2026.
         </p>
       </header>
 
