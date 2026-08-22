@@ -122,6 +122,7 @@ nav a[aria-current="page"] { color: var(--ink); font-weight: 750; text-decoratio
   text-decoration: none;
   transition: background-color .18s ease;
 }
+.archive-list a + a { border-top: 1px solid var(--line); }
 .archive a:hover, .archive a:focus-visible { background: rgba(255, 255, 255, .5); }
 .archive a > * { min-width: 0; }
 .archive span, .archive em { color: var(--muted); font-size: 13px; }

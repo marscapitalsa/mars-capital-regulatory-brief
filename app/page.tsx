@@ -2,15 +2,6 @@ const publicBase = "https://marscapitalsa.github.io/mars-capital-regulatory-brie
 
 const actionUpdates = [
   {
-    date: "01 Oct 2026",
-    title: "LETA and revised AMLA: prepare the IAM's beneficial-owner filing",
-    change: "The federal transparency-register regime enters into force on 1 October. The IAM's Swiss AG must identify and document its beneficial owners and file under the applicable transition rule.",
-    action: "Confirm the AG's audit category, map the ownership and control chain, prepare the filing authority and supporting documents, and calculate the earliest applicable statutory date.",
-    deadline: "Effective 1 October · AG backstop: 1 January 2027 with ordinary audit; otherwise 1 March 2027",
-    tag: "UBO Register",
-    href: `${publicBase}transparency-register-amla.html`,
-  },
-  {
     date: "20 Aug 2026",
     title: "Switzerland introduces new Russia-related crypto and sectoral rules",
     change: "Crypto-assets are now expressly included in funds; A7A5, RUBx and the digital rouble are restricted; and Swiss legal persons may not transact directly or indirectly with Russian-established crypto-service providers and exchange or transfer platforms.",
@@ -31,15 +22,6 @@ const actionUpdates = [
 ];
 
 const updates = [
-  {
-    date: "12 Jan 2026",
-    title: "Crypto in an individual mandate requires a custody and segregation assessment",
-    change: "FINMA Guidance 01/2026 requires an assessment of the crypto custodian's permitted status, prudential supervision, technical capability and bankruptcy segregation.",
-    relevance: "Relevant if a discretionary mandate holds or may hold crypto, or the IAM sponsors or manages a foreign crypto product placed in client portfolios.",
-    deadline: "Current supervisory expectation · internal existing-exposure review date to be set internally",
-    tag: "Crypto Custody",
-    href: `${publicBase}finma-crypto-custody-01-2026.html`,
-  },
   {
     date: "17 Aug 2026",
     title: "SECO updates Annex 2 data and relaxes the Article 27a restriction on Yelo Bank",
@@ -84,7 +66,7 @@ export default function Home() {
       <header className="edition-head">
         <p className="eyebrow">IAM Regulatory Brief · Monthly edition</p>
         <h1>August 2026</h1>
-        <p className="dek">Eight selected developments for a Swiss independent asset manager. Last checked 22 August 2026.</p>
+        <p className="dek">Six selected developments published or taking effect in August 2026 for a Swiss independent asset manager. Last checked 22 August 2026.</p>
       </header>
       <nav aria-label="Brief navigation">
         <a href="#" aria-current="page">August 2026</a>
@@ -93,7 +75,7 @@ export default function Home() {
         <a href="#archive">Archive</a>
       </nav>
       <section id="action-required" className="updates-section action-section">
-        <div className="priority-block"><p className="eyebrow">Priority 1</p><h2>Action required</h2><p>The corporate transparency implementation starts on 1 October, while the two Swiss sanctions amendments are already in force.</p></div>
+        <div className="priority-block"><p className="eyebrow">Priority 1</p><h2>Action required</h2><p>These Swiss sanctions developments were published and took effect in August.</p></div>
         <div className="update-list">{actionUpdates.map((update) => (
           <article className="update-card" key={update.href}><div className="meta"><span className="badge" style={{ background: "var(--accent)", color: "#fff" }}>Action required</span><span>{update.date}</span></div><div><h3>{update.title}</h3><span className="topic-tag">{update.tag}</span><p><strong>What changed:</strong> {update.change}</p><p className="deadline"><strong>{update.deadline}</strong></p><p><strong>Action:</strong> {update.action}</p><a className="read" href={update.href}>Open action plan →</a></div></article>
         ))}</div>
@@ -104,7 +86,14 @@ export default function Home() {
           <article className="update-card" key={update.href}><div className="meta"><span className="badge">Potentially relevant</span><span>{update.date}</span></div><div><h3>{update.title}</h3><span className="topic-tag">{update.tag}</span><p><strong>What changed:</strong> {update.change}</p><p className="deadline"><strong>{update.deadline}</strong></p><p><strong>Relevant if:</strong> {update.relevance}</p><a className="read" href={update.href}>Open analysis →</a></div></article>
         ))}</div>
       </section>
-      <section className="archive" id="archive"><div><p className="eyebrow">Previous editions</p><h2>Archive</h2></div><a href="https://marscapitalsa.github.io/mars-capital-regulatory-brief/july-2026.html"><span>July 2026</span><strong>AML, product governance, beneficial ownership, sanctions and operational resilience</strong><em>10 updates · View →</em></a></section>
+      <section className="archive" id="archive">
+        <div><p className="eyebrow">Previous editions and earlier material</p><h2>Archive</h2></div>
+        <div className="archive-list">
+          <a href="https://marscapitalsa.github.io/mars-capital-regulatory-brief/july-2026.html"><span>July 2026</span><strong>AML, product governance, beneficial ownership, sanctions and operational resilience</strong><em>10 updates · View →</em></a>
+          <a href={`${publicBase}transparency-register-amla.html`}><span>12 June 2026</span><strong>LETA and revised AMLA: corporate beneficial-owner filing</strong><em>Reference material · View →</em></a>
+          <a href={`${publicBase}finma-crypto-custody-01-2026.html`}><span>12 January 2026</span><strong>FINMA Guidance 01/2026: custody and segregation of crypto-assets</strong><em>Reference material · View →</em></a>
+        </div>
+      </section>
       <footer>© 2026 IAM Regulatory Brief · Independent Asset Manager</footer>
     </main>
   );
