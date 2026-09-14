@@ -1,0 +1,123 @@
+[
+  {
+    "date": "2026-01-26",
+    "week": "2026-W05",
+    "source": "SIF",
+    "source_type": "official",
+    "title": "FINMASA revision: cross-border supervisory cooperation",
+    "summary": "The Federal Council's FINMASA project would update the framework for international supervisory cooperation, including direct information transmission by supervised institutions and cross-border audits. Entry into force is not expected before 2027.",
+    "relevance": "Potentially relevant to asset managers with cross-border operations or foreign supervisory requests; it is a legislative project rather than an immediate compliance change.",
+    "tags": ["FINMASA", "cross-border", "supervision", "legislative-project"],
+    "url": "https://www.sif.admin.ch/en/financial-market-supervision-act-finmasa"
+  },
+  {
+    "date": "2026-03-20",
+    "week": "2026-W12",
+    "source": "SIF / Federal Council",
+    "source_type": "official",
+    "title": "Federal AML/CFT strategy approved",
+    "summary": "The Federal Council approved a national AML/CFT strategy that prioritises risk-based measures, the beneficial-owner transparency register and stronger supervisory tools.",
+    "relevance": "Sets the policy context for forthcoming AML implementation work and supports the direction of travel for financial intermediaries.",
+    "tags": ["AMLA", "AML-CFT", "beneficial-ownership", "policy"],
+    "url": "https://www.sif.admin.ch/en/newnsb/mBcrOr2fxTs3RYp-6vLip"
+  },
+  {
+    "date": "2026-04-21",
+    "week": "2026-W17",
+    "source": "FINMA",
+    "source_type": "official",
+    "title": "FINMA annual media conference: suitability remains a portfolio-manager focus",
+    "summary": "FINMA reported that a growing number of portfolio managers were placed under intensive supervision in 2025, often due to shortcomings in compliance with suitability-related conduct rules.",
+    "relevance": "A clear supervisory signal to retain evidence of client classification, suitability analysis, product governance and control testing.",
+    "tags": ["FINMA", "FinSA", "suitability", "portfolio-management", "conduct-rules"],
+    "url": "https://www.finma.ch/en/news/2026/04/20260421-mm-jmk-2026/"
+  },
+  {
+    "date": "2026-05-06",
+    "week": "2026-W19",
+    "source": "FINMA",
+    "source_type": "official",
+    "title": "Asset-management data collection 2026 published",
+    "summary": "FINMA published its annual asset-management survey and guidance for portfolio management, investment advice and execution-only services; the filing deadline was the end of June.",
+    "relevance": "The data fields are a practical indicator of the information FINMA expects firms to keep available for risk-oriented supervision.",
+    "tags": ["FINMA", "reporting", "portfolio-management", "data-collection"],
+    "url": "https://www.finma.ch/en/supervision/asset-management/data-collection/datenerhebung-asset-management/"
+  },
+  {
+    "date": "2026-06-03",
+    "week": "2026-W23",
+    "source": "FINMA",
+    "source_type": "official",
+    "title": "Guidance 03/2026 on products in individual portfolio management",
+    "summary": "FINMA identified recurring risk patterns in escalation cases involving products in individual portfolio management and stressed early risk identification, robust governance and consistent client-focused conduct rules.",
+    "relevance": "Directly relevant to product approval, liquidity and concentration risk, outsourcing oversight and the evidence supporting managed-portfolio decisions.",
+    "tags": ["FINMA", "portfolio-management", "product-governance", "outsourcing", "suitability", "risk-management"],
+    "url": "https://www.finma.ch/en/news/2026/06/20260603-mm-am-03-2026-risiken-produkte-vv/"
+  },
+  {
+    "date": "2026-06-12",
+    "week": "2026-W24",
+    "source": "SIF / Federal Council",
+    "source_type": "official",
+    "title": "Revised AMLA and LETA to enter into force on 1 October 2026",
+    "summary": "The revised AMLA, the Legal Entities Transparency Act and implementing ordinances will introduce a beneficial-owner transparency register and related due-diligence changes from 1 October 2026.",
+    "relevance": "Relevant AMLA-supervised firms should assess KYC, beneficial-owner discrepancy handling and access processes for the new register.",
+    "tags": ["AMLA", "LETA", "AML-CFT", "KYC", "beneficial-ownership", "implementation"],
+    "url": "https://www.sif.admin.ch/en/newnsb/x3sKLxCJ6S3dQJtfvy0Tb"
+  },
+  {
+    "date": "2026-06-29",
+    "week": "2026-W27",
+    "source": "FINMA",
+    "source_type": "official",
+    "title": "Enforcement action on conflicts, suitability and illiquid products",
+    "summary": "FINMA concluded proceedings involving a fund manager and a portfolio-manager applicant, finding serious FinSA conduct-rule failures and conflicts relating to illiquid bonds; it imposed licence, authorisation, disgorgement and industry-ban consequences.",
+    "relevance": "Shows the enforcement consequences where suitability, appropriateness, product selection, conflicts and documentation cannot be demonstrated in individual portfolio management.",
+    "tags": ["FINMA", "enforcement", "FinSA", "suitability", "conflicts-of-interest", "illiquid-products", "portfolio-management"],
+    "url": "https://www.finma.ch/en/news/2026/06/20260629-mm-durchsetzung-verhaltensregeln/"
+  },
+  {
+    "date": "2026-06-22",
+    "week": "2026-W26",
+    "source": "Lenz & Staehelin",
+    "source_type": "legal-commentary",
+    "title": "Legal commentary on FINMA's tightening wealth-management stance",
+    "summary": "Lenz & Staehelin analyses FINMA Supervisory Communication 03/2026 and related enforcement, focusing on in-house products, multi-layer remuneration, suitability, disclosure, ongoing product monitoring and outsourced control functions.",
+    "relevance": "Useful implementation commentary for discretionary managers: it translates FINMA's supervisory expectations into product-selection, conflict-management, remuneration and outsourcing control questions.",
+    "tags": ["FINMA", "legal-commentary", "portfolio-management", "product-governance", "conflicts-of-interest", "outsourcing", "suitability"],
+    "url": "https://www.lenzstaehelin.com/news-and-insights/browse-thought-leadership-insights/insights-detail/from-guidance-to-action-finmas-tightening-stance-on-asset-management-practices/"
+  },
+  {
+    "date": "2026-07-01",
+    "week": "2026-W27",
+    "source": "SIF / Federal Department of Finance",
+    "source_type": "official",
+    "title": "External working group established to optimise financial-market regulation",
+    "summary": "The FDF established an external group to examine administrative burden, duplication and the effectiveness of Switzerland's financial-market regulatory framework; a report is planned for the end of 2027.",
+    "relevance": "A policy-development signal rather than an immediate obligation; relevant for monitoring future simplification or supervisory-framework proposals.",
+    "tags": ["financial-market-regulation", "policy", "supervision", "legislative-project"],
+    "url": "https://www.sif.admin.ch/en/newnsb/HN8Lb8jDpjNsuZIcUtU5Z"
+  },
+  {
+    "date": "2026-08-26",
+    "week": "2026-W35",
+    "source": "ASG",
+    "source_type": "association-support",
+    "title": "ASG publishes a model agreement for business introducers",
+    "summary": "ASG published an editable model agreement in French, German and Italian for intermediaries who bring prospective wealth-management or investment-advisory clients to an IAM. ASG states that the model must be adapted to each manager's organisation, activities, services and client base.",
+    "relevance": "Directly relevant because the IAM uses a business introducer. The existing agreement and the introducer's actual conduct should be compared with the model and accompanying PwC checklist.",
+    "tags": ["business-introducers", "cross-border", "AML", "remuneration", "employment-status"],
+    "url": "https://mailchi.mp/vsv-asg/webinaire-asg-23-mars-2023-votre-audit-de-lexercice-13847215"
+  },
+  {
+    "date": "2026-09-11",
+    "week": "2026-W37",
+    "source": "UK government",
+    "source_type": "official-guidance",
+    "title": "UK Sanctions List search tool guidance",
+    "summary": "The UK government explained exact, partial and fuzzy searching, warned that fuzzy search is disabled by default and that exact phrases or early filters can create false negatives, and confirmed that use of the tool does not replace due diligence.",
+    "relevance": "Conditionally relevant where the IAM or its outsourced compliance provider performs manual UK-list searches or uses the search tool for quality assurance.",
+    "tags": ["sanctions", "screening", "operational-risk"],
+    "url": "https://www.gov.uk/government/publications/the-uk-sanctions-list/uk-sanctions-list-search-tool-user-guide"
+  }
+]
