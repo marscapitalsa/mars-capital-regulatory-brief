@@ -13,6 +13,24 @@
 .sources{margin:38px 0 22px;padding:24px 28px;border-top:3px solid var(--ink);background:var(--panel)}.sources h2{margin:0 0 10px;font-size:27px}.sources p{margin:0 0 12px;color:var(--muted)}.sources .source-link{display:block;margin:9px 0}.standfirst strong{color:var(--ink)}
 
 /* Production layout and interaction polish */
+.edition-head{padding-left:6vw;padding-right:6vw}
+.article-header{padding:54px 6vw 0}
+.article-body h2,.article-body h3{scroll-margin-top:24px}
+.article-body h2{margin-top:32px}
+.article-body h3{font-size:21px;margin:25px 0 10px}
+.article-body .facts h2,.article-body .action-plan h2,.article-body .sources h2{margin-top:0}
+.topic-table-wrap{max-width:100%;margin:22px 0;overflow-x:auto;border:1px solid var(--line);background:var(--panel)}
+.topic-table{width:100%;min-width:580px;border-collapse:collapse;font-size:13px}
+.topic-table caption{padding:14px;text-align:left;font-weight:750;background:var(--soft)}
+.topic-table th,.topic-table td{padding:13px 15px;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}
+.topic-table th{background:var(--soft);font-size:12px}
+.topic-table tr:last-child td{border-bottom:0}
+.scenario-list dt{margin:25px 0 8px;font-weight:800}
+.scenario-list dd{margin:0;padding-left:16px;border-left:3px solid var(--line)}
+.article-toc{padding:16px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);line-height:2}
+.detail-links{font-size:12px}
+.digest-group[hidden]{display:none}
+@media(max-width:900px){.article-header{padding:38px 5vw 0}}
 html{background:#e9e8e2}
 body{min-width:0;overflow-x:hidden}
 .page{min-height:100vh;background:var(--paper);box-shadow:0 0 0 1px rgba(23,43,45,.04)}
